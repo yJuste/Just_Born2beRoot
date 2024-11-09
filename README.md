@@ -1,12 +1,12 @@
-# Printf
+# Born2beRoot
 
 ## // INTRO
 
-* Voici le Milestone 1, le projet : get_next_line 
+* Voici le Milestone 1, le projet : Born2beRoot
 
 ## /. HELP
 
-* Voir le pdf de Get_Next_Line qui explique parfaitement le projet.
+* Voir le pdf de Born2beRoot qui explique parfaitement le projet.
 
 ##	/: EOF
 
