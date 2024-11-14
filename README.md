@@ -22,7 +22,7 @@
 <command> | less				pouvoir defiler sur la page de la commande.
 						'g' pour remonter et 'G' pour aller en bas
 
-======================================= VIRTUAL BOX ======================================
+==================================== VIRTUAL BOX =====================================
 
 Guest OS Install Setup Name: Born2beRoot
 	username: ...
