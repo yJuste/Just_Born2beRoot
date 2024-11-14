@@ -197,6 +197,13 @@ wall "	#Architecture: $arc
 	sudo crontab -u root -e			open the crontab
 	systemctl stop cron
 
+================================== SIGNATURE ============================================
+
+==> ```shasum <VM'sname>.vdi```
+* Faites pour récuperer la signature de ta VM. Elle est unique à chaque VM.
+
+===================================== EVAL ==============================================
+
 Les nouvelles commandes à apprendre pour l'EVAL :
 
 	sudo chage -l username				examine les règles de mot de passe
