@@ -22,13 +22,17 @@
 <command> | less				pouvoir defiler sur la page de la commande.
 						'g' pour remonter et 'G' pour aller en bas
 
+
 ==================================== VIRTUAL BOX =====================================
+
 
 Guest OS Install Setup Name: Born2beRoot
 	username: ...
 	password: ...
 
-========================================== CODE ==========================================
+
+======================================== CODE ========================================
+
 
 * Durant l'installation de Debian.
 
@@ -44,7 +48,9 @@ USER NAME :
 	password: ...
 	passphrase: ...
 
-========================================= VM =============================================
+
+======================================= VM ===========================================
+
 
 	su -					se connecter en root:
 	apt-get update/upgrade			installer les derniers MAJ
@@ -57,13 +63,17 @@ USER NAME :
 	# User privilege specification
 	<username>	ALL=(ALL) ALL
 
-========================================= VIM / GIT ======================================
+
+====================================== VIM / GIT =====================================
+
 
 Installer VIM / GIT :
 
 	apt-get install vim/git			install vim et git.
 
-=========================================== SSH ==========================================
+
+========================================= SSH ========================================
+
 
 	apt install openssh-server		installe ssh
 	systemctl status ssh			voir le status ssh ( system control )
@@ -75,7 +85,9 @@ Installer VIM / GIT :
 
 	service ssh restart			appliquer les modifs
 
-========================================= UFW ============================================
+
+======================================= UFW ==========================================
+
 
 	apt-get install ufw			installe ufw
 	ufw enable				mise en marche
@@ -89,13 +101,17 @@ Installer VIM / GIT :
 	Changer le Host Port et le Guest Port en celui que tu souhaites (4242/4242)
 	systemctl restart ssh			restart ssh
 
-=============================== SE CONNECTER AU PORT ====================================
+
+============================== SE CONNECTER AU PORT =================================
+
 
 	ssh <username>@127.0.0.1 -p 4242	se connecte au port desiré -p ( port )
 
 	127.0.0.1 ==> localhost
 
-===================================== STRONG PASSWORD ===================================
+
+=================================== STRONG PASSWORD =================================
+
 
 	install libpam-pwquality		installe pw-quality
 	vim /etc/pam.d/common-password		ouvrir le fichier des règles
@@ -123,7 +139,9 @@ Installer VIM / GIT :
 
 	reboot					applique les modifs.
 
-======================================= CREATE A GROUP ==================================
+
+===================================== CREATE A GROUP ================================
+
 
 	groupadd <user42>			créer un groupe	user42
 	getent group				voir les groupes
@@ -136,7 +154,9 @@ Installer VIM / GIT :
 
 	groups					displays the groups of a user.
 
-==================================== SUDOERS PASSWORD ===================================
+
+================================== SUDOERS PASSWORD =================================
+
 
 	cd /var/log/sudo			aller dans var log sudo
 	touch sudo.log				creer un fichier sudo.log
@@ -151,7 +171,9 @@ Installer VIM / GIT :
 	Defaults	log_input, log_output
 	Defaults	requiretty
 
-=================================== MONITORING.SH =======================================
+
+================================= MONITORING.SH =====================================
+
 
 	install net-tools			installer net-tools
 	cd /usr/local/bin/			aller a bin
@@ -198,12 +220,16 @@ wall "	#Architecture: $arc
 	sudo crontab -u root -e			open the crontab
 	systemctl stop cron
 
-================================== SIGNATURE ============================================
+
+================================ SIGNATURE ==========================================
+
 
 ==> ```shasum <VM'sname>.vdi```
 * Faites pour récuperer la signature de ta VM. Elle est unique à chaque VM.
 
-===================================== EVAL ==============================================
+
+==================================== EVAL ===========================================
+
 
 Les nouvelles commandes à apprendre pour l'EVAL :
 
@@ -215,7 +241,9 @@ Les nouvelles commandes à apprendre pour l'EVAL :
 	lsblk						display partitions
 	dpkg -l | grep sudo				montre que le sudo est installé
 
-====================================== BONUS ============================================
+
+==================================== BONUS ==========================================
+
 
 https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md
 
