@@ -7,6 +7,7 @@
 ## /. HELP
 
 * Voir le pdf de Born2beRoot qui explique parfaitement le projet.
+* Fini à 125%
 
 
 ## /: MINI GUIDE
