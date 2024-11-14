@@ -16,6 +16,7 @@
 * Si une commande ne marche pas, c'est peut être parce que tu ne l'as pas lancé avec 'sudo'...
 * Si tu ne peux changer un fichier passe le en mode : chmod 740 <file.txt> ( n'oublie pas de le repasser en mode par default )
 * Si tu ne veux faire les bonus, commence à regarder la section : BONUS
+* Tu peux défiler de gauche à droite les commandes.
 
 <command> | less				pouvoir defiler sur la page de la commande.
 						'g' pour remonter et 'G' pour aller en bas
